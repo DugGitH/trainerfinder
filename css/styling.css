@@ -1,0 +1,80 @@
+.jumbotron {
+    background: url("../images/champion.jpg") center center;
+    background-size: cover;
+    height: 600px;
+    
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+}
+
+.featured {
+    color: silver;
+    
+}
+
+.featured h1 {
+    padding-top: 60px;
+}
+
+.featured .btn-default {
+    font-weight: bold;   
+    background-color: rgba(93, 94, 97, 0.9);
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 150px;
+    margin-right: 15px;
+}
+
+.featured .btn-default:hover{
+    background-color: gold;
+}
+
+.trial{
+    text-align: center;
+    padding: 20px 0 40px 0;
+    color: black;
+}
+
+.trial img{
+    width: 200px;
+    height: 70px;
+    margin: 20px;    
+}
+
+.footer {
+    background-color: white;
+    font-size: 15px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .jumbotron {
+        height: 410px;
+        margin; 0;
+    }    
+    .logo {
+        width: 60px;
+        height: 60px;
+    }    
+    .feature h1 {
+        padding-top: 30px;
+    }    
+    .featured p {
+        font-size: 17px;
+    }
+    .featured {
+        text-align: center;
+    }
+    .trial img{
+        width: 100px;
+        height: 35px;
+        margin: 10px;
+    }
+}
+
+
